@@ -9,3 +9,4 @@ print("Weekday of the week:", datetime.now().strftime('%A'))
 print("Day of year:", datetime.now().timetuple().tm_yday)
 print("Day of the month:", datetime.now().day)
 print("Day of week:", datetime.now().strftime('%A'))
+print("Day of the week as number (1=Monday, 7=Sunday):", datetime.now().weekday() + 1)  # 1 = Monday, 7 = Sunday
